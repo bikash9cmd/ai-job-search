@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Bikash Kushwaha
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -40,7 +40,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Bikash Kushwaha - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -50,13 +50,11 @@
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-% If you have no address to list, DELETE this whole line. \address{}{}{} fails
-% with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Bikash}{Kushwaha}
+\address{Kathmandu, Nepal}{}{}
+\phone[mobile]{+977 9761158845}
+\email{kushwahabikash9580@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/bikash9cmd}{LinkedIn}, \href{https://github.com/bikash9cmd}{GitHub}}
 
 \begin{document}
 
@@ -67,7 +65,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Machine Learning Engineer with five AWS certifications, including Machine Learning Engineer and Data Engineer Associate. Builds forecasting, data and LLM systems end to end on AWS and reports what they actually achieve: Hawa forecasts Kathmandu PM2.5 with 15\% lower error than the best naive baseline, and Sodhnus, a bilingual Amazon Bedrock assistant, blocks 97\% of wrong answers in a 350-case adversarial test. Brings MLOps practice and cloud infrastructure experience from a Cloud Architect role at TekBay Digital.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -77,15 +75,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Machine Learning}: Python, Scikit-learn, gradient-boosted trees, time-series forecasting, backtesting, computer vision (YOLOX), Pandas, NumPy.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{MLOps}: Apache Airflow, MLflow, Evidently AI, Great Expectations, drift monitoring, shadow deployment and automatic rollback, FastAPI, Docker.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Generative AI}: Amazon Bedrock (tool use, Guardrails, Nova), agents, RAG, deterministic answer validation, adversarial LLM evaluation.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Data Engineering}: serverless lakehouses (S3, Athena, Lambda, DuckDB), Apache Iceberg, Kinesis, Debezium CDC, SQL, data quality gates.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Cloud \& DevOps}: AWS (EC2, VPC, RDS, IAM, CloudWatch, API Gateway, SQS, DynamoDB, Step Functions, IoT Core), Terraform, Git, Linux, networking.
 
 \end{itemize}
 
@@ -97,33 +95,39 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Apr 2026--Jun 2026}{Cloud Architect}{TekBay Digital}{Kathmandu, Nepal}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Deployed and maintained AWS infrastructure (EC2, VPC, S3, RDS) with Terraform IaC, reducing manual provisioning time by 40\%.}
+    \item {Supported cloud migration projects: workload assessment, architecture design and implementation aligned with the AWS Well-Architected Framework.}
+    \item {Monitored systems with CloudWatch; troubleshot networking faults, IAM misconfigurations and service outages.}
+    \item {Configured least-privilege IAM roles, security groups and VPC rules; contributed to runbooks and technical documentation.}
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Oct 2024--Dec 2024}{Data Analyst}{DataCamp}{Remote}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Automated data analysis workflows in Python (Pandas, NumPy), reducing data errors by 30\%.}
+    \item {Delivered technical reports with Matplotlib and Seaborn; documented analytical procedures for the team.}
 \end{itemize}}}
 
+\end{itemize}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
 \vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-\end{itemize}}}
+
+\item{\cventry{2026}{Hawa -- Kathmandu air-quality forecasting}{\href{https://github.com/bikash9cmd/hawa-kathmandu-air}{GitHub}}{}{}{Hour-by-hour next-day PM2.5 forecasts with bilingual alerts; 15\% lower error than the best naive forecast and 40\% fewer missed bad-air days in a month-by-month backtest. Serverless AWS design at about \$2.60 a month.}}
+
+\item{\cventry{2026}{Sodhnus -- Nepali/English rainfall assistant on Amazon Bedrock}{\href{https://github.com/bikash9cmd/sodhnus-nepal-rain-assistant}{GitHub}}{}{}{Answers only through five read-only tools; every number is checked against tool results. Stops 97\% of wrong answers in a 350-case adversarial test.}}
+
+\item{\cventry{2026}{Barsha -- Nepal monsoon lakehouse}{\href{https://github.com/bikash9cmd/barsha-nepal-monsoon-lakehouse}{GitHub}}{}{}{Serverless lakehouse over 50 years of NOAA rainfall with a quality gate, freshness alarms and a next-morning bilingual extreme-rain bulletin, at about \$1.20 a month.}}
+
+\item{\cventry{2026}{Surakshit -- earthquake ``I'm safe'' check-in}{\href{https://github.com/bikash9cmd/surakshit-nepal-quake-checkin}{GitHub}}{}{}{Storage-first API Gateway, SQS and DynamoDB design; at 15 million check-ins in ten minutes a naive design loses 45\%, this one loses none.}}
 
 \end{itemize}
 
@@ -135,16 +139,24 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2024--2028}{BSc (Hons) Computer Science with Artificial Intelligence}{Birmingham City University}{Kathmandu, Nepal (distance)}{}{\vspace{1pt}
+Modules: Cloud Computing, Machine Learning Operations (MLOps), Data Management, Software Engineering.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2021--2023}{Higher National Diploma, Computer Science}{National Infotech Higher Secondary School}{Kathmandu, Nepal}{}{}}
 
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item {AWS Certified Machine Learning Engineer -- Associate; AWS Certified Data Engineer -- Associate; AWS Certified Solutions Architect -- Associate; AWS Certified AI Practitioner; AWS Certified Cloud Practitioner; AWS Academy Graduate -- Cloud Architecting.}
 \end{itemize}
 
 % ============================================================
@@ -154,27 +166,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item {Nepali (native), English (professional working proficiency).}
 \end{itemize}
 
 % ============================================================

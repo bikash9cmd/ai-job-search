@@ -13,10 +13,10 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 ## Search Sites
 
 Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+- **merojob.com** - Nepal's largest general job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: Nepal / Kathmandu, and Remote worldwide); also covered by `linkedin-search` CLI
+- **kumarijob.com** - Nepal board with many IT roles
+- **jobsnepal.com** - another major Nepal board; also remote boards such as weworkremotely.com and remoteok.com
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -27,54 +27,62 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Machine learning / AI engineering
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Building, deploying and monitoring ML and LLM systems.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Machine Learning Engineer" remote AWS
+site:linkedin.com/jobs "AI Engineer" remote Python
+site:linkedin.com/jobs "MLOps Engineer" remote
+site:linkedin.com/jobs "Machine Learning Engineer" Kathmandu
+site:merojob.com "Machine Learning" OR "AI Engineer"
+site:kumarijob.com "Machine Learning" OR "AI Engineer"
+site:linkedin.com/jobs "GenAI Engineer" OR "LLM Engineer" Bedrock
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Data engineering
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Pipelines, lakehouses, data quality.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Data Engineer" remote AWS
+site:linkedin.com/jobs "Data Engineer" Kathmandu
+site:merojob.com "Data Engineer"
+site:linkedin.com/jobs "Analytics Engineer" remote Python
+```
+
+### Priority 3: Cloud architecture / DevOps on AWS
+
+Infrastructure and platform roles that use the AWS certifications.
+
+```
+site:linkedin.com/jobs "Cloud Engineer" AWS Kathmandu
+site:linkedin.com/jobs "Solutions Architect" AWS remote junior OR associate
+site:merojob.com "DevOps" OR "Cloud Engineer" AWS
+site:kumarijob.com "AWS" engineer
+```
+
+### Priority 4: Broader / bridge roles
+
+Wider net and paid AI-training work.
+
+```
+site:linkedin.com/jobs "Python Developer" remote
+site:linkedin.com/jobs "AI trainer" OR "AI data trainer" coding Nepali
+site:merojob.com Python developer Kathmandu
+site:linkedin.com/jobs "Data Scientist" junior remote
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Acceptable locations:
+- Remote (worldwide or open to Nepal / Asia time zones): ideal
+- Kathmandu, Lalitpur, Bhaktapur (Kathmandu Valley): ideal
+- Hybrid in Kathmandu Valley: acceptable
+- Relocation abroad (UK, EU, Gulf, Australia, etc.) with visa sponsorship: borderline, flag for decision
+- On-site elsewhere in Nepal (Pokhara, Biratnagar): borderline
+- Relocation without visa sponsorship: too far
 
 ## Language Filter
 

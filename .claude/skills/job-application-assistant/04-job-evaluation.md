@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, AWS (5 certifications incl. ML Engineer, Data Engineer, Solutions Architect), serverless data pipelines/lakehouses (Lambda, S3, Athena, Iceberg, Kinesis), MLOps (Airflow, MLflow, Evidently, monitoring, shadow/rollback), time-series forecasting, LLM apps and agents on Amazon Bedrock with output validation, Terraform, Docker, SQL
+**Moderate match areas:** Scikit-learn and gradient-boosted trees, computer vision (YOLOX + classifier), RAG, FastAPI/Django backends, IoT Core, Step Functions, DynamoDB, CDC (Debezium), Linux administration, networking, workflow automation (Make)
+**Weak match areas:** PyTorch/TensorFlow deep learning at depth, Kubernetes in production, Spark at scale, large-team production experience, Java/Go/TypeScript, Azure/GCP
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** AWS cloud infrastructure with Terraform (TekBay Cloud Architect), serverless data engineering and ML/GenAI systems on AWS (portfolio)
+**Moderate:** Data analysis in Python (DataCamp), backend/API development, DevOps and monitoring, cloud cost optimisation
+**Entry-level:** Senior ML/data roles needing 3+ years of production ML, research scientist roles, frontend-heavy roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -93,7 +93,7 @@ Does the role and company culture match the behavioral profile?
 ### 4. Location & Logistics (Pass/Fail + Notes)
 - Within commute range: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: FLAG (open to relocating for the right role; check visa sponsorship)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Become a Machine Learning / AI Engineer shipping production ML and LLM systems on AWS
+- Grow MLOps and data engineering depth: monitoring, reliability, cost-aware pipelines
+- Work on problems with real-world impact (climate, disasters, public services, fintech), remotely or with a path to relocation
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building end-to-end systems from raw data to a deployed service, debugging why data or models mislead, forecasting, designing reliable and cheap AWS architectures, bilingual products
+- Tasks that drain: pure maintenance or ticket work with no building, unmeasured work, purely manual reporting (inferred, confirm)
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Early career, earning while studying; paid remote work in USD/GBP/EUR is valuable (inferred, confirm)
+- **Flexibility**: Part-time BSc study (distance, BCU) until Dec 2028 runs alongside work; Nepal time zone (UTC+5:45)
+- **Professional development**: Production ML and MLOps at scale, mentorship from senior ML engineers, PyTorch and deep learning
 
 ### 6. Salary Benchmark (Optional)
 

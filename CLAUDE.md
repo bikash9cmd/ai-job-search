@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Bikash Kushwaha
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Bikash Kushwaha, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +16,79 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Bikash Kushwaha
+- **Location:** Kathmandu, Nepal (remote worldwide, on-site/hybrid in Kathmandu Valley, open to relocation for the right role)
+- **Contact:** +977 9761158845 · kushwahabikash9580@gmail.com · linkedin.com/in/bikash9cmd · github.com/bikash9cmd
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | Nepali | Native |
+  | English | Professional working proficiency (C1) |
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Part-time BSc student (Birmingham City University, distance, to Dec 2028); Cloud Architect contract at TekBay Digital ended June 2026; available now.
+- **LinkedIn headline:** "Machine Learning Engineer | 5× AWS Certified (ML Engineer, Data Engineer, Solutions Architect) | Python, MLOps, Amazon Bedrock, time-series forecasting | BSc Computer Science with AI"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **BSc (Hons) Computer Science with Artificial Intelligence** (2024-2028, expected) - Birmingham City University (distance, Kathmandu)
+  - Topics: Cloud Computing, Machine Learning Operations (MLOps), Data Management, Software Engineering
+- **Higher National Diploma, Computer Science** (2021-2023) - National Infotech Higher Secondary School, Kathmandu
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Cloud Architect** (Apr 2026 - Jun 2026) - **TekBay Digital** (Kathmandu, Nepal)
+  - Deployed and maintained AWS infrastructure (EC2, VPC, S3, RDS) with Terraform, reducing manual provisioning time by 40%
+  - Supported cloud migrations aligned with the AWS Well-Architected Framework; CloudWatch monitoring and troubleshooting
+  - Least-privilege IAM, security groups and VPC rules; operational runbooks
+- **Data Analyst** (Oct 2024 - Dec 2024) - **DataCamp** (Remote)
+  - Automated Python (Pandas, NumPy) analysis workflows, reducing data errors by 30%; Matplotlib/Seaborn reporting
+
+### Independent Projects (portfolio, see 01-candidate-profile.md for detail)
+- ML/forecasting: Hawa (PM2.5), Bijuli (grid demand, MLOps rollback), Pahiro (landslide warning), Chowk (traffic CV)
+- Data engineering: Barsha (rainfall lakehouse), Fohor (waste/maps lakehouse), Bhuktani (real-time payments on Iceberg)
+- LLM on Bedrock: Sodhnus (rainfall assistant), Kagaj (government documents agent), Parkha (pesticide safety)
+- Architecture: Surakshit (quake check-in), Bato (trekker safety), 3-tier Terraform app, AWS cost dashboard
+- Most stacks are designed and tested in replay, not deployed; some data is simulated. Always say so.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, AWS, Terraform, Docker, MLOps (Airflow, MLflow, Evidently), forecasting, Amazon Bedrock agents with validation
+- **Secondary:** Scikit-learn, gradient-boosted trees, YOLOX/computer vision, RAG, FastAPI, Django, Iceberg, Kinesis, Debezium, Linux, networking
+- **Domain:** data quality for messy public data, forecasting and early warning, disaster/public-safety systems, bilingual Nepali/English products, cost-aware serverless design
+- **Software:** AWS (Lambda, S3, Athena, API Gateway, SQS, DynamoDB, Step Functions, Kinesis, IoT Core, Bedrock, EC2, VPC, RDS, IAM, CloudWatch, Route 53), Git/GitHub, Prometheus, Grafana, DuckDB
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **AWS Certified Machine Learning Engineer - Associate**
+- **AWS Certified Data Engineer - Associate**
+- **AWS Certified Solutions Architect - Associate (SAA-C03)**
+- **AWS Certified AI Practitioner**
+- **AWS Certified Cloud Practitioner**
+- **AWS Academy Graduate - Cloud Architecting**
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None listed
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from portfolio work; no formal assessment yet. See 02-behavioral-profile.md. -->
+- **Self-directed builder** - takes problems end to end without external structure
+- **Evidence-driven** - checks data, lineage and tests before trusting a result; reports caveats up front
+- **Strengths:** root-cause debugging, honest evaluation, cost and failure-aware design, clear documentation
+- **Growth areas:** short formal work history, mostly solo work so far
+- **Thrives in:** teams that value measurement, design docs and ownership; remote or hybrid
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building ML and data systems that hold up on messy real-world data
+- Problems with public impact: climate, disasters, air quality, payments, agriculture
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Remote ML/AI and data teams: AI startups, SaaS, climate tech, fintech
+- Nepal tech: software companies and AWS partners (e.g. TekBay-style consultancies), banks and fintech, development and humanitarian organisations
+- AI training/evaluation platforms (coding and Nepali language) as bridge income
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles with no building (pure support/maintenance) - confirm
+- Unpaid roles
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

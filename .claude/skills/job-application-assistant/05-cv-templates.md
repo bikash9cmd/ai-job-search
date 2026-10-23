@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Bikash Kushwaha - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,13 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Bikash}{Kushwaha}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Kathmandu, Nepal}{}{}
+\phone[mobile]{+977 9761158845}
+\email{kushwahabikash9580@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/bikash9cmd}{LinkedIn}, \href{https://github.com/bikash9cmd}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -137,11 +137,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Machine Learning / AI Engineer roles:**
+> Machine Learning Engineer with five AWS certifications, including Machine Learning Engineer and Data Engineer Associate. Builds forecasting and LLM systems end to end on AWS and reports what they actually achieve: Hawa forecasts Kathmandu PM2.5 with 15% lower error than the best naive baseline, and Sodhnus, a bilingual Amazon Bedrock assistant, blocks 97% of wrong answers in a 350-case adversarial test. Brings MLOps practice (Airflow, MLflow, drift monitoring, shadow deployment and rollback) and cloud infrastructure experience from a Cloud Architect role at TekBay Digital.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Data Engineer / MLOps roles:**
+> AWS-certified Data Engineer and Solutions Architect who builds serverless pipelines that stay correct when the source data does not. Designed lakehouses over 50 years of Nepal rainfall (Barsha), national map and census data (Fohor) and real-time bank payments in Apache Iceberg with exactly-once writes and CDC (Bhuktani), each with quality gates, freshness alarms and a monthly cost. Hands-on with Terraform, Lambda, Kinesis, Athena, Airflow and MLflow from a Cloud Architect role and MLOps coursework at Birmingham City University.
+
+**For Cloud / Solutions Architect roles:**
+> AWS Certified Solutions Architect with Cloud Architect experience at TekBay Digital, where Terraform automation cut manual provisioning time by 40%. Designs for failure and cost: an earthquake check-in service that loses no check-ins at 15 million users in ten minutes (Surakshit), and a trekker-safety escalation system on Step Functions (Bato). Strong in VPC networking, IAM least privilege, CloudWatch monitoring and Well-Architected migrations.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

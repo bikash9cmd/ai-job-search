@@ -4,6 +4,8 @@
 
 # AI Job Search
 
+> **Tech stack:** Python · Claude Code · Web scraping · LLM-based CV and cover-letter tailoring
+
 *The job search that runs on your machine.*
 
 <p align="center">
